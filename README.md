@@ -1,2 +1,2 @@
-# -urriculum-vitae
+# curriculum-vitae
 CV
