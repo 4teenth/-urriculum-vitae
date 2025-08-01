@@ -48,11 +48,10 @@ function perimetr(matrix) {
 - **University:** Dnipro University of Technology, _Electromechanical automation systems and electrical
   drive_
 - **Courses:**
-
   - [GoIT](https://goit.global/ua/)
-  - Epam University program
-  - RSSchool
+  - [Epam University program](https://campus.epam.ua/ua/training)
+  - [RSSchool](https://rs.school/)
 
-  ### Languages:
+### Languages:
 
 **English** - B1
