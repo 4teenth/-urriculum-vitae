@@ -18,27 +18,75 @@
   <body>
     <header>
       <nav class="nav">
-        <ul>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#code">Code</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">education</a></li>
-          <li><a href="#languages">languages</a></li>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#about">About<sub>me</sub></a>
+          </li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+          <li class="nav__item"><a href="#education">education</a></li>
+          <li class="nav__item"><a href="#languages">languages</a></li>
+          <li class="nav__item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="author"></section>
+      <!-- <div class="wrap"></div> -->
+      <section id="about" class="author-about">
+        <img
+          src="./assets/img/Full.jpg"
+          alt="author photo"
+          class="author-about__photo"
+        />
+        <h2 class="author-about__name">Andrii Ovsiannikov</h2>
+        <h3 class="author-about__job">JR. Front-End Developer</h3>
+        <p class="author-about__descr">
+          An aspiring Front-End Developer with a strong interest in modern web
+          technologies and clean, semantic code. Eager to gain hands-on
+          experience, contribute to team projects and grow professionally in a
+          collaborative environment. Ready to take on new challenges and excited
+          for my opportunity in the tech industry.
+        </p>
+      </section>
       <div class="author-info">
-        <section id="contact" class="block-info"></section>
-        <section id="summary" class="block-info"></section>
-        <section id="skills" class="block-info"></section>
-        <section id="code" class="block-info"></section>
-        <section id="projects" class="block-info"></section>
-        <section id="education" class="block-info"></section>
-        <section id="languages" class="block-info"></section>
+        <section id="skills" class="info-section">
+          <h3 class="info-section__title">Technical skills</h3>
+          <ul class="info-section__list">
+            <li class="info-section__item">
+              <span class="accent-color">Technologies:</span> HTML, CSS,
+              JavaScript;
+            </li>
+            <li class="info-section__item">
+              <span class="accent-color">Related technologies\notions:</span>
+              Responsive web design, Pixel Perfect, Flexbox/Grid, CSS
+              pre-\postprocessors Sass/Less\Autoprefixer, lazysizes/lodash libs,
+              Bootstrap;
+            </li>
+            <li class="info-section__item">
+              <span class="accent-color">Methodologies:</span> Agile, Scrum,
+              BEM(web dev);
+            </li>
+            <li class="info-section__item">
+              <span class="accent">Development tools:</span> VSC, Github/Gitlab,
+              Gulp Kit, Webpack, Bourbon;
+            </li>
+          </ul>
+        </section>
+        <section id="code" class="info-section">
+          <h3 class="info-section__title">Live code</h3>
+        </section>
+        <section id="projects" class="info-section">
+          <h3 class="info-section__title"></h3>
+          <ul class="info-section__list"></ul>
+        </section>
+        <section id="education" class="info-section">
+          <h3 class="info-section__title"></h3>
+          <ul class="info-section__list"></ul>
+        </section>
+        <section id="languages" class="info-section">
+          <h3 class="info-section__title"></h3>
+        </section>
+        <!-- <section id="contact" class="info-section__section"></section> -->
       </div>
     </main>
     <footer>
